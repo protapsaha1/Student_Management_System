@@ -1,8 +1,22 @@
 const qr = require('qrcode')
 
+// const data = {
+//     name:"Rafe",
+//     age:"20",
+//     roll:672641,
+//     fatherName:'Golam Farooq',
+//     motherName: "Rogi Begum",
+//     address: "Jamalpur",
+//     img: './static/download.png'
+// }
 const data = {
-    name:"Rafe",
-    age:"20"
+    name:"Rafe Uddaraj",
+    age:"20",
+    roll:672641,
+    fatherName:'Golam Farooq',
+    motherName: "Rogi Begum",
+    address: "Jamalpur",
+    img: './static/download.png'
 }
 
 let str = ""
