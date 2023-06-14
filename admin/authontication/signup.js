@@ -21,8 +21,8 @@ form.addEventListener('submit',function(ev){
         data_base.push(data)
         const admin = new Admin()
         if (admin.signup(data.inistitueCode,data.inistitueName,data.inistitueID,data.emailAddress,data.password,data.confirmPassword)){
-            this.reset()
-            window.location.href = '/admin/login.html'
+            // this.reset()
+            // window.location.href = '/admin/login.html'
             console.log(Admin.users)
             return
         }else{

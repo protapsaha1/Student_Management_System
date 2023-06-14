@@ -4,6 +4,7 @@ const form = document.getElementById('form')
 
 form.addEventListener('click',function(ev){
     ev.preventDefault()
-    const users = Admin.users
-    console.log(users)
+    const admin = new Admin()
+    admin.login(this.elements['inistitueCode'].value,this.elements['password'].value)
+
 })
