@@ -25,7 +25,9 @@ form.addEventListener('submit',function(ev){
             window.location.href = '/admin/login.html'
             console.log(Admin.users)
             return
+        }else{
+            console.log('Password Does not Exist')
         }
-        console.log('Password Does not Exist')
+
     }
 })
